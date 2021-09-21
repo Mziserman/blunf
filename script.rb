@@ -32,8 +32,6 @@ columns = %w[
   period_reimbursed_guaranteed_fees
 ]
 
-# we have period_fees_rate period_interests_rate
-
 # C * (1 + (F + I)/12)^ID - C*(1 + I/12)^ID
 
 require 'pry'
